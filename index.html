@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Frontend Task</title>
+    <meta name="description" content="Frontend Task" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="checkbox-card card">
+        <label> 2021: <input type="checkbox" /> </label>
+        <label> 2022: <input type="checkbox" /> </label>
+        <label> 2023: <input type="checkbox" /> </label>
+      </div>
+    </section>
+
+    <section class="years">
+      <!-- 2021 Card -->
+      <div class="year-card card">
+        <button class="reset-btn">Reset</button>
+        <h2>2021</h2>
+
+        <select class="months-dropdown">
+          <option value="0">None</option>
+          <option value="1-4">Jan - Apr</option>
+          <option value="5-8">May - Aug</option>
+          <option value="9-12">Sep - Dec</option>
+        </select>
+
+        <div class="months-container" id="1-4">
+          <label> Jan: <input type="number" value="0" id="1" /> </label>
+          <label> Feb: <input type="number" value="0" id="2" /> </label>
+          <label> Mar: <input type="number" value="0" id="3" /> </label>
+          <label> Apr: <input type="number" value="0" id="4" /> </label>
+        </div>
+        <div class="months-container" id="5-8">
+          <label> May: <input type="number" value="0" id="5" /> </label>
+          <label> Jun: <input type="number" value="0" id="6" /> </label>
+          <label> Jul: <input type="number" value="0" id="7" /> </label>
+          <label> Aug: <input type="number" value="0" id="8" /> </label>
+        </div>
+        <div class="months-container" id="9-12">
+          <label> Sep: <input type="number" value="0" id="9" /> </label>
+          <label> Oct: <input type="number" value="0" id="10" /> </label>
+          <label> Nov: <input type="number" value="0" id="11" /> </label>
+          <label> Dec: <input type="number" value="0" id="12" /> </label>
+        </div>
+
+        <button class="calculate-btn">Calculate</button>
+      </div>
+
+      <!-- 2022 Card -->
+      <div class="year-card card">
+        <button class="reset-btn">Reset</button>
+        <h2>2022</h2>
+
+        <select class="months-dropdown">
+          <option value="0">None</option>
+          <option value="1-4">Jan - Apr</option>
+          <option value="5-8">May - Aug</option>
+          <option value="9-12">Sep - Dec</option>
+        </select>
+
+        <div class="months-container" id="1-4">
+          <label> Jan: <input type="number" value="0" id="1" /> </label>
+          <label> Feb: <input type="number" value="0" id="2" /> </label>
+          <label> Mar: <input type="number" value="0" id="3" /> </label>
+          <label> Apr: <input type="number" value="0" id="4" /> </label>
+        </div>
+        <div class="months-container" id="5-8">
+          <label> May: <input type="number" value="0" id="5" /> </label>
+          <label> Jun: <input type="number" value="0" id="6" /> </label>
+          <label> Jul: <input type="number" value="0" id="7" /> </label>
+          <label> Aug: <input type="number" value="0" id="8" /> </label>
+        </div>
+        <div class="months-container" id="9-12">
+          <label> Sep: <input type="number" value="0" id="9" /> </label>
+          <label> Oct: <input type="number" value="0" id="10" /> </label>
+          <label> Nov: <input type="number" value="0" id="11" /> </label>
+          <label> Dec: <input type="number" value="0" id="12" /> </label>
+        </div>
+
+        <button class="calculate-btn">Calculate</button>
+      </div>
+
+      <!-- 2023 Card -->
+      <div class="year-card card">
+        <button class="reset-btn">Reset</button>
+        <h2>2023</h2>
+
+        <select class="months-dropdown">
+          <option value="0">None</option>
+          <option value="1-4">Jan - Apr</option>
+          <option value="5-8">May - Aug</option>
+          <option value="9-12">Sep - Dec</option>
+        </select>
+
+        <div class="months-container" id="1-4">
+          <label> Jan: <input type="number" value="0" id="1" /> </label>
+          <label> Feb: <input type="number" value="0" id="2" /> </label>
+          <label> Mar: <input type="number" value="0" id="3" /> </label>
+          <label> Apr: <input type="number" value="0" id="4" /> </label>
+        </div>
+        <div class="months-container" id="5-8">
+          <label> May: <input type="number" value="0" id="5" /> </label>
+          <label> Jun: <input type="number" value="0" id="6" /> </label>
+          <label> Jul: <input type="number" value="0" id="7" /> </label>
+          <label> Aug: <input type="number" value="0" id="8" /> </label>
+        </div>
+        <div class="months-container" id="9-12">
+          <label> Sep: <input type="number" value="0" id="9" /> </label>
+          <label> Oct: <input type="number" value="0" id="10" /> </label>
+          <label> Nov: <input type="number" value="0" id="11" /> </label>
+          <label> Dec: <input type="number" value="0" id="12" /> </label>
+        </div>
+
+        <button class="calculate-btn">Calculate</button>
+      </div>
+    </section>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>

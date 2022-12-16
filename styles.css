@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Verdana, sans-serif;
+}
+
+body {
+  padding: 20px;
+  min-height: 100vh;
+  font-size: 18px;
+}
+
+input,
+select,
+button {
+  font-size: 15px;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  padding: 16px;
+  min-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  align-items: center;
+
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.year-card button {
+  margin-left: auto;
+  padding: 2px 8px;
+}
+.year-card select {
+  padding: 2px 8px;
+}
+
+.year-card .months-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.year-card .months-container label {
+  width: 100%;
+  text-align: right;
+}
+
+/* Display Logic */
+.year-card {
+  display: none;
+}
+.year-card .months-container {
+  display: none;
+}
